@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div{
+    
+    background-color: black;
+    background-image: url(../images/KaliLinux.png);
+    height: 100vh;
+    width: auto;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 200px;
+    background-color: #000;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    
+    text-decoration: serif;
+    color: red;
+    padding: 5px 20px;
+    border: 1px solid blue;
+    transition: 0.6 ease;
+}
+
+ul li a:hover{
+    background-color: #ff0000;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: red;
+}
+
+
+
+
